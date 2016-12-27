@@ -83,6 +83,10 @@ It should be used in conjunction with a second class or ID
 .hoc{display:block; margin:0 auto;}
 
 
+/* Disqus
+--------------------------------------------------------------------------------------------------------------- */
+.disqus {padding: 50px;}
+
 /* HTML 5 Overrides
 --------------------------------------------------------------------------------------------------------------- */
 address, article, aside, figcaption, figure, footer, header, main, nav, section{display:block; margin:0; padding:0;}
