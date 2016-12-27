@@ -31,13 +31,14 @@
     </div>
     <div class="one_third">
       <h6 class="heading">Send a Message</h6>
-      <form method="post" action="#">
+      <form action="https://formspree.io/melhoir@gmail.com"
+      method="POST">
         <fieldset>
           <legend>Message:</legend>
-          <input class="btmspace-15" type="text" value="" placeholder="Name">
-          <input class="btmspace-15" type="text" value="" placeholder="Email">
-          <input class="btmspace-15" type="text" value="" placeholder="Message">
-          <button type="submit" value="submit">Submit</button>
+          <input class="btmspace-15" type="text" name="name" placeholder="Name">
+          <input class="btmspace-15" type="email" name="_replyto" placeholder="Email">
+          <input class="btmspace-15" type="text" name="message" placeholder="Message">
+          <button type="submit" value="Send">Submit</button>
         </fieldset>
       </form>
     </div>
